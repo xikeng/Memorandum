@@ -16,7 +16,7 @@
 		E2710F8221AD2E5400AC54CF /* MemorandumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2710F8121AD2E5400AC54CF /* MemorandumTests.m */; };
 		E2710F8D21AD2E5400AC54CF /* MemorandumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2710F8C21AD2E5400AC54CF /* MemorandumUITests.m */; };
 		E2710FA021AD2F6D00AC54CF /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = E2710F9F21AD2F6D00AC54CF /* Car.m */; };
-		E2710FA421AD36A500AC54CF /* SumWithKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E2710FA321AD36A500AC54CF /* SumWithKVC.m */; };
+		E2710FA421AD36A500AC54CF /* Cars.m in Sources */ = {isa = PBXBuildFile; fileRef = E2710FA321AD36A500AC54CF /* Cars.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		E2710F8E21AD2E5400AC54CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2710F9E21AD2F6D00AC54CF /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		E2710F9F21AD2F6D00AC54CF /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
-		E2710FA221AD36A500AC54CF /* SumWithKVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SumWithKVC.h; sourceTree = "<group>"; };
-		E2710FA321AD36A500AC54CF /* SumWithKVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumWithKVC.m; sourceTree = "<group>"; };
+		E2710FA221AD36A500AC54CF /* Cars.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cars.h; sourceTree = "<group>"; };
+		E2710FA321AD36A500AC54CF /* Cars.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cars.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,8 +144,8 @@
 			children = (
 				E2710F9E21AD2F6D00AC54CF /* Car.h */,
 				E2710F9F21AD2F6D00AC54CF /* Car.m */,
-				E2710FA221AD36A500AC54CF /* SumWithKVC.h */,
-				E2710FA321AD36A500AC54CF /* SumWithKVC.m */,
+				E2710FA221AD36A500AC54CF /* Cars.h */,
+				E2710FA321AD36A500AC54CF /* Cars.m */,
 			);
 			path = KVC;
 			sourceTree = "<group>";
@@ -283,7 +283,7 @@
 				E2710F6D21AD2E5300AC54CF /* ViewController.m in Sources */,
 				E2710F7821AD2E5400AC54CF /* main.m in Sources */,
 				E2710FA021AD2F6D00AC54CF /* Car.m in Sources */,
-				E2710FA421AD36A500AC54CF /* SumWithKVC.m in Sources */,
+				E2710FA421AD36A500AC54CF /* Cars.m in Sources */,
 				E2710F6A21AD2E5300AC54CF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
